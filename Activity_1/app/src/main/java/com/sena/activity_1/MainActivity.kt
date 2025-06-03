@@ -1,6 +1,6 @@
 package com.sena.activity_1
 
-import android.R
+
 import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.pager.HorizontalPager
@@ -26,14 +25,11 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import androidx.navigation.compose.NavHost
-import androidx.navigation.compose.composable
-import androidx.navigation.compose.rememberNavController
+import com.sena.activity_1.View.Activity3.estadoCarga
 import com.sena.activity_1.ui.theme.Activity_1Theme
 import com.sena.activity_1.view.ActivityOne.FirstPage
 import com.sena.activity_1.view.ActivityOne.SecondPage
 import com.sena.activity_1.view.ActivityOne.ThirdPage
-import com.sena.activity_1.view.ActivityTwo.AppNavigator
 
 
 class MainActivity : ComponentActivity() {
@@ -44,7 +40,20 @@ class MainActivity : ComponentActivity() {
         setContent {
             Activity_1Theme {
                 Scaffold {
-                    AppNavigator()
+                    estadoCarga()
+                    //validarTiempoReal()
+                    //campoDeTexto()
+                    //Actividades()
+                    //Registro()
+                    //Fortaleza()
+                    //cambiarColor()
+                    //Telefono()
+                    //Validacion()
+                    //ColorNumero()
+                    //TemaDinamico()
+                    //Formulario()
+                    //AppAnimation()
+                    //AppNavigator()
                     //HorizontalPages()
                     //MyNavigation()
                 }

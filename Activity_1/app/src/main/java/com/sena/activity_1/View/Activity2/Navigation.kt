@@ -5,7 +5,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.sena.activity_1.HorizontalPages
-import com.sena.activity_1.View.Activity2.Login
+import com.sena.activity_1.View.Activity1.Login
 
 @Composable
 fun AppNavigator() {
